@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:caminho*",
+      "destination": "https://api-gestao-contas-bancarias.onrender.com/api/:caminho*"
+    }
+  ]
+}
