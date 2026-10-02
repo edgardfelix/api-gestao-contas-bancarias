@@ -127,7 +127,7 @@ npm run typecheck   # checagem de tipos
 | Parte | Plataforma | Configuração |
 |---|---|---|
 | API | Render | [`render.yaml`](render.yaml) (Blueprint, diretório `backend`) |
-| Interface | Vercel | [`frontend/vercel.json`](frontend/vercel.json) (diretório raiz `frontend`) |
+| Interface | Vercel | [`vercel.json`](vercel.json) (build do diretório `frontend`) |
 
 Em produção, a Vercel reescreve `/api/*` para a API no Render, mantendo o mesmo esquema do proxy do Vite: o frontend continua usando caminhos relativos e não há CORS. Como o repositório é em memória, os dados são perdidos quando a instância gratuita do Render hiberna.
 
